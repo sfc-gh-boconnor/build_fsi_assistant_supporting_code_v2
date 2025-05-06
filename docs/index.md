@@ -6,7 +6,7 @@
 
 ![alt text](image-1.png)
 
-<h1sub>Introduction</h1sub>
+## <h1sub>Introduction</h1sub>
 
 Effective stock selection relies on having up-to-date data from diverse sources—research analyst reports, 10-K filings, investor call recordings, historical tick data, and real-time market feeds. To manage this efficiently, a unified platform is essential—one capable of storing and processing all data types, whether PDFs of analyst reports, MP3 investor recordings, or SEC documents.
 This data must be readily accessible for analysis using the latest large language models (LLMs) such as Anthropic, Gemma, LLaMA, or DeepSeek. Ensuring the trustworthiness and security of generated summaries and insights is critical, especially when they inform high-stakes financial decisions.
@@ -16,15 +16,6 @@ In this hands-on lab, you’ll learn how to build a Stock Selection Agent from t
 
 To learn about you can leverage the latest AI technologies right within the Snowflake platform.  When AI is deeply embedded in your trusted data platform, the possibilities are endless. We will be exploring the processing of both **Unstructured** and **Structured** data which will then allow the application of a **Cortex Agent** to help discover insights by leveraging **All Data.**
 
-<h1sub> The lab environment</h1sub>
-
-A complete lab environment has been built for you automatically. This includes:
-
-- **Snowflake Account**: [{{ getenv("DATAOPS_SNOWFLAKE_ACCOUNT","[unknown]") }}](https://{{ getenv("DATAOPS_SNOWFLAKE_ACCOUNT","[unknown]") }}.snowflakecomputing.com)
-- **User**: {{ getenv("EVENT_USER_NAME","[unknown]") }}
-- **Snowflake Virtual Warehouse**: {{ getenv("EVENT_WAREHOUSE","[unknown]") }}
-- **Snowflake Database**: {{ getenv("DATAOPS_DATABASE","[unknown]") }}
-- **Schema**: {{ getenv("EVENT_SCHEMA","[unknown]") }}
 
 
 
@@ -48,14 +39,7 @@ Please note that the Analyst reports for this lab are completely fictious and fi
 
 <h1sub>HAVE FUN</h1sub>
 
-- Navigate to [the lab steps](Logging_in.md) to begin the lab.
 
-
-
-
-!!! warning "This lab environment will disappear!"
-
-    This event is due to end at {{ getenv("EVENT_END_DATETIME","[unknown time]") }}, at which point access will be restricted, and accounts will be removed.
 
 
 
